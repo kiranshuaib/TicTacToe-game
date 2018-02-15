@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
+  
     <head>
+        <title>Tic Tac Toe</title>
         <link rel="stylesheet" href="css/index.css" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Anton|Archivo+Black|Berkshire+Swash|Merriweather|Nanum+Pen+Script" rel="stylesheet">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome-min.css" type="text/css" />
+        <link rel="stylesheet" href="bower_components/font-awesome/web-fonts-with-css/css/fontawesome.min.css" type="text/css" />
         <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+     
     </head>
     
-    
+    <body>
+        <div class ="spacer">TIC-TAC-TOE</div>
+        <table>
+            <tr>
+                <td class='cell'  id='0'></td>
+                <td class='cell'  id='1'></td>
+                <td class='cell'  id='2'></td>
+            </tr>
+            <tr>
+                <td class='cell'  id='3'></td>
+                <td class='cell'  id='4'></td>
+                <td class='cell'  id='5'></td>
+            </tr>
+            <tr>
+                <td class='cell'  id='6'></td>
+                <td class='cell'  id='7'></td>
+                <td class='cell'  id='8'></td>
+            </tr>
+        </table>
+        <div class="endgame">
+            <div class="text"></div>
+            <button onclick="startGame()">Replay</button>
+        </div>
+       
+      
+        <script type="text/javascript" src="js/index.js"></script>      
+    </body>
     </html>
